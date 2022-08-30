@@ -1,7 +1,7 @@
 
 A package provides an easy way to add facebook type multiple newsfeed imageview.
 
-![alt text](https://github.com/EjazAmir/newsfeed_multiple_imageview/tree/master/screenshots/Simulator Screen Shot - iPhone SE (3rd generation) - 2022-08-30 at 17.42.37.png?raw=true)
+![alt text](https://github.com/EjazAmir/newsfeed_multiple_imageview/screenshots/1.png?raw=true)
 
 ## How to use
 
