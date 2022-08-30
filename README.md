@@ -1,6 +1,11 @@
 
 A package provides an easy way to add facebook type multiple newsfeed imageview.
 
+<p>
+    <img src="https://github.com/EjazAmir/newsfeed_multiple_imageview/blob/master/screenshots/1.png?raw=true"/>
+    <img src="https://github.com/EjazAmir/newsfeed_multiple_imageview/blob/master/screenshots/2.png?raw=true"/>
+</p>
+
 ## Installation
 
 You just need to add `newsfeed_multiple_imageview` as a [dependency in your pubspec.yaml file](https://flutter.io/using-packages/).
