@@ -1,7 +1,7 @@
 name: newsfeed_multiple_imageview
 description: Facebook type multiple news feed images view.
 version: 1.0.0
-homepage:
+homepage: https://github.com/EjazAmir/newsfeed_multiple_imageview.git
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
