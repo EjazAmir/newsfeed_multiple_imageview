@@ -1,13 +1,14 @@
 
 A package provides an easy way to add facebook type multiple newsfeed imageview.
 
+
+
 ## How to use
 
-        ```
+       
         import 'package:shimmer/shimmer.dart';
-        ```
-
-        ```
+       
+      
          List<String> _imageUrls = [];
 
           @override
@@ -29,7 +30,6 @@ A package provides an easy way to add facebook type multiple newsfeed imageview.
               marginTop: 10.0,
             )
 
-        ```
 
 ## Support
 
