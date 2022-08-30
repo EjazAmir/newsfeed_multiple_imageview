@@ -12,7 +12,7 @@ dependencies:
 
 ## How to use
 
-```use
+```dart
 import 'package:newsfeed_multiple_imageview/newsfeed_multiple_imageview.dart';
 
  List<String> _imageUrls = [];
