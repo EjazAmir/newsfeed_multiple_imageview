@@ -12,11 +12,10 @@ dependencies:
 
 ## How to use
 
-       
-        import 'package:newsfeed_multiple_imageview/newsfeed_multiple_imageview.dart';
-       
-      
-         List<String> _imageUrls = [];
+```use
+import 'package:newsfeed_multiple_imageview/newsfeed_multiple_imageview.dart';
+
+ List<String> _imageUrls = [];
 
           @override
           void initState() {
@@ -36,6 +35,7 @@ dependencies:
               marginBottom: 10.0,
               marginTop: 10.0,
             )
+```
 
 
 ## Support
