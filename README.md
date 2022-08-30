@@ -1,13 +1,14 @@
 
 A package provides an easy way to add facebook type multiple newsfeed imageview.
 
+![alt text](https://github.com/EjazAmir/newsfeed_multiple_imageview/tree/master/screenshots/Simulator Screen Shot - iPhone SE (3rd generation) - 2022-08-30 at 17.42.37.png?raw=true)
+
 ## How to use
 
-        ```
+       
         import 'package:shimmer/shimmer.dart';
-        ```
-
-        ```
+       
+      
          List<String> _imageUrls = [];
 
           @override
@@ -29,7 +30,6 @@ A package provides an easy way to add facebook type multiple newsfeed imageview.
               marginTop: 10.0,
             )
 
-        ```
 
 ## Support
 
