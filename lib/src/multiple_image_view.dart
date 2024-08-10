@@ -4,9 +4,9 @@ import 'package:newsfeed_multiple_imageview/src/smart_image.dart';
 class MultipleImageView extends StatelessWidget {
   final List<String> imageUrls;
   const MultipleImageView({
-    Key? key,
+    super.key,
     required this.imageUrls,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -128,7 +128,7 @@ class MultipleImageView extends StatelessWidget {
             Expanded(
               flex: 1,
               child: ClipRRect(
-                borderRadius:const BorderRadius.only(
+                borderRadius: const BorderRadius.only(
                   bottomRight: Radius.circular(20),
                 ),
                 child: SmartImage(
@@ -149,7 +149,7 @@ class MultipleImageView extends StatelessWidget {
       Expanded(
         flex: 2,
         child: ClipRRect(
-          borderRadius: BorderRadius.only(
+          borderRadius: const BorderRadius.only(
             topLeft: Radius.circular(20),
             bottomLeft: Radius.circular(20),
           ),
@@ -171,7 +171,7 @@ class MultipleImageView extends StatelessWidget {
             Expanded(
               flex: 1,
               child: ClipRRect(
-                borderRadius:const  BorderRadius.only(
+                borderRadius: const BorderRadius.only(
                   topRight: Radius.circular(20),
                 ),
                 child: SmartImage(
@@ -249,7 +249,7 @@ class MultipleImageView extends StatelessWidget {
                 ),
               ),
             ),
-           const SizedBox(height: 5),
+            const SizedBox(height: 5),
             Expanded(
               flex: 1,
               child: ClipRRect(
@@ -291,7 +291,6 @@ class MultipleImageView extends StatelessWidget {
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 22,
-                          fontFamily: "Nulito",
                           fontWeight: FontWeight.w700,
                         ),
                       ),

@@ -11,16 +11,20 @@ class SmartImage extends StatelessWidget {
   final bool isPost;
   final double? radius;
 
-  const SmartImage(this.src,
-      {Key? key, this.fit, this.isPost = false, this.radius})
-      : super(key: key);
+  const SmartImage(
+    this.src, {
+    super.key,
+    this.fit,
+    this.isPost = false,
+    this.radius,
+  });
 
-  bool networkImage() => src.startsWith('https');
+  bool get networkImage => src.startsWith('https') || src.startsWith('http');
   //bool base64() => src.contains('[]');
 
   @override
   Widget build(BuildContext context) {
-    return networkImage()
+    return networkImage
         ? FadeInImage.memoryNetwork(
             placeholder: kTransparentImage,
             image: src,
@@ -33,7 +37,6 @@ class SmartImage extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.bold,
-                    fontFamily: 'Nunito',
                     color: Colors.black,
                   ),
                   textAlign: TextAlign.center,
